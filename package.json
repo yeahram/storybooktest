@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,13 +13,16 @@
     "@types/node": "^16.18.65",
     "@types/react": "^18.2.38",
     "@types/react-dom": "^18.2.17",
+    "add": "^2.0.6",
     "dlx": "^0.2.1",
+    "framer-motion": "^10.16.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "storybook": "^7.5.3",
     "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yarn": "^1.22.21"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -26,8 +32,12 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
-  "jest":{
-    "collectCoverageForm":["<rootDir>/src/components/**/*.{ts,tsx}", "!**/node_modules/**","!**/*.stories.{ts,tsx}"]
+  "jest": {
+    "collectCoverageForm": [
+      "<rootDir>/src/components/**/*.{ts,tsx}",
+      "!**/node_modules/**",
+      "!**/*.stories.{ts,tsx}"
+    ]
   },
   "eslintConfig": {
     "extends": [
