@@ -15,7 +15,7 @@
 // export default preview;
 
 import React from "react";
-import { addDecorator } from "@storybook/react";
+// import { addDecorator } from "@storybook/react";
 import { Center } from "@chakra-ui/react";
 import { ThemeProvider, Theme, CSSReset } from "@chakra-ui/react";
-addDecorator((story) => <ThemeProvider theme={theme}>{story()}</ThemeProvider>);
+// addDecorator((story) => <ThemeProvider theme={theme}>{story()}</ThemeProvider>);
